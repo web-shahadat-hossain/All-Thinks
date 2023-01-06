@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./images/think-out-box-concepts-with-lightbulb-box\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.hero-text {
+  width: 45%;
+  text-align: right;
+}
+.hero-text h1 {
+  width: 500px;
+  text-align: right;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  color: #ffffff;
+}
+.hero-text p {
+  margin-top: 24px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #ffffff;
+  width: 494px;
+}
+.hero-text div {
+  width: 80%;
+  text-align: right;
+}
+.hero-text button {
+  width: 160px;
+  height: 54px;
+  color: #005fac;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 43px;
+}
+.my-failures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 131px auto;
+  max-width: 1072px;
+}
+.my-failures-text {
+  width: 416px;
+  margin-left: 87px;
+}
+.my-failures-text h2 {
+  width: 288px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.my-failures-text p {
+  width: 416px;
+  height: 104px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.check-box div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #444343;
+}
+.check-box div img {
+  margin-right: 10px;
+}
+.my-plans {
+  max-width: 1072px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+.my-plans h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  /* identical to box height */
+  margin-bottom: 30px;
+  text-align: center;
+
+  /* Dark 01 */
+
+  color: #151414;
+}
+.my-plan-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.my-plan-box h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #151414;
+}
+.my-plan-box p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+
+  /* Dark 03 */
+
+  color: #737272;
+}
+.about-section {
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(./images/Rectangle\ 3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1140px;
+  margin: 130px auto;
+  padding: 64px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 8px;
+  /* flex-direction: column; */
+  /* background:  */
+}
+.about-section h2 {
+  width: 459px;
+  height: 94px;
+  left: 294px;
+  top: 2280.96px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+
+  color: #ffffff;
+}
+
+.about-section button {
+  width: 160px;
+  height: 54px;
+  color: #005fac;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 43px;
+}
+footer {
+  width: 100%;
+  background: #151414;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 130px 0;
+}
+.footer-container-box1 {
+  width: 485px;
+}
+.footer-container h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+  margin-bottom: 16px;
+  color: #f8f8f8;
+}
+.footer-container p {
+  width: 485px;
+  margin-bottom: 24px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #bebebe;
+}
+.footer-container input {
+  width: 325px;
+  height: 64px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 30px;
+  /* Dark 07 */
+
+  color: #f3f3f3;
+}
+.footer-container button {
+  background-color: #005fac;
+  width: 160px;
+  height: 54px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 13px;
+}
+.footer-container h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.footer-container a {
+  width: 47px;
+  height: 46px;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 20px;
+  padding: 13px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 50%;
+}
